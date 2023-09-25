@@ -1,0 +1,43 @@
+.consub{
+    background-color: #fff;
+    height: 300px;
+    border-radius: 55px;
+    margin-bottom: 80px;
+    margin-top: -122px;
+    position: relative;
+}
+.consub .carry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consub h3{
+    width: 30%;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.consub .form{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 80px;
+    border-radius: 20px;
+    border: 2px solid #aa367c;
+    padding: 15px;
+}
+.consub .form input{
+    border: none;
+    width: 80%;
+}
+.consub .form button{
+    background: linear-gradient(90.21deg,#aa367c -5.91%,#4a2fbd 111.58%);
+    border-radius: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 30px;
+    border: none;
+    margin-left: 15px;
+}
+.consub .form input:focus{
+    border: none;
+    outline: none;
+}

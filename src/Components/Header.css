@@ -1,0 +1,96 @@
+.box{
+    border: 1px solid #fff;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #151515;
+}
+.style{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.style:focus{
+    /* color: linear-gradient(90.21deg,rgba(170,54,124,.5) -5.91%,rgba(74,47,189,.5) 111.58%); */
+    animation: colorchange 3s infinite;
+    /* animation-play-state: paused; */
+}
+@keyframes colorchange{
+    0%{
+        color:rgb(170,54,124)  ;
+    }100%{
+       color: rgb(74,47,189); 
+    }
+}
+.after::after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 1px;
+    height: 47px;
+    right: -20px;
+    top: -6px;
+}
+/* start style all page */
+.bootstrab
+,.python
+,.htmllink
+,.jslink
+,.reactlink
+,.alllink{
+    padding: 5px 60px; 
+    border: none;
+}
+.conpro{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.info{
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+.info img{
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    border-radius: 14px;
+}
+.info .caption{
+    position: absolute;
+    bottom: 150%;
+    background:  linear-gradient(90.21deg,#aa367c -5.91%,#4a2fbd 111.58%);
+    opacity: 0.85;
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+}
+.info .caption .content{
+    position: relative;
+    color: #fff;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .3s;
+    opacity: 1;
+}
+.info:hover img{
+    transform: scale(1.1);
+}
+.info:hover .content{
+    top: 50%;
+    opacity: 1;
+}
+.info:hover .caption{
+    bottom: 0;
+}

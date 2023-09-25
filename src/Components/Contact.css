@@ -1,0 +1,97 @@
+.contact{
+    height: 700px;
+    background: linear-gradient(90.21deg,#aa367c -5.91%,#4a2fbd 111.58%);
+    padding: 50px;
+    position: relative;
+    margin-top: 800px;
+}
+.contact .box{
+    background: none;
+    border: none;
+}
+.contact img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+.contact .text{
+   max-width: 50%;
+   position: absolute;
+}
+.contact .text h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.contact .txt{
+    padding: 20px 30px;
+    color: #fff;
+    background: hsla(0,0%,100%,.1);
+    border: 1px solid hsla(0,0%,100%,.5);
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+.contact .txt:focus
+,.contact textarea:focus
+{
+    color: black;
+    background-color: #fff;
+    outline: none;
+}
+.contact .txt:focus::placeholder
+,.contact textarea:focus::placeholder{
+    color: black;
+}
+.contact .txt::placeholder{
+    color: #fff;
+}
+.contact textarea{
+    height: 90px;
+    width: 75%;
+    background: hsla(0,0%,100%,.1);
+    border: 1px solid hsla(0,0%,100%,.5);
+    border-radius: 20px;
+    transition: .5s;
+    padding: 15px ;
+    overflow: hidden;
+    outline: none;
+}
+.contact textarea::placeholder{
+    color: #fff;
+}
+.contact button{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 6px;
+}
+.contact button::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    z-index: -1;
+    transition: .5s;
+}
+.contact button:hover:before{
+    width: 100%;
+    right: 0;
+    transition: .5s;
+}
+.contact button:hover{
+    color: #fff;
+    z-index: 12000;
+}

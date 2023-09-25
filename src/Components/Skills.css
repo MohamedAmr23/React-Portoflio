@@ -1,0 +1,25 @@
+.con-skill{
+    background-color: #151515;
+    border-radius: 64px;
+    margin-top: 70px;
+    padding: 50px 60px;
+    text-align: center;
+    height: 400px;
+
+}
+.h1skill{
+    color: #fff;
+    font-weight: bold;
+}
+.pskill{
+    color: #bbb8bb;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.imgskill{
+width: 130px;
+margin-bottom: 10px;
+}
+.con-skill h5{
+    color: #fff;
+}

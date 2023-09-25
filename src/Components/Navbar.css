@@ -1,0 +1,80 @@
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+.home{
+    margin-left:auto;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 350px;
+}
+.skills{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+}
+.projects{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+}
+.skills:hover,.projects:hover{
+    color: #fff;
+}
+.link{
+    margin-right: 15px;
+    padding:5px 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 5);
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+}
+.link1{
+    margin-left: 60px;
+}
+.btncon{
+    margin-left: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    background:none;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: bold;
+    width: 200px;
+    position: relative;
+}
+.btncon::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: .4s;
+    z-index: -1;
+}
+.btncon:hover::before{
+    width: 100%; 
+}
+.btncon:hover{
+    color: black;
+}
+.styleheader{
+    position: sticky;
+    top: 0;
+    background-color: #212121;
+    z-index: 222222;
+    transition: 2s;
+}
+.smooth{
+    transition: 1s;
+}
